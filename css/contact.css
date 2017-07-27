@@ -1,0 +1,109 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker'); 
+
+/*UNIVERSALS*/ 
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+} 
+
+ul {
+    list-style-type: none;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+} 
+
+p, a {
+    font-family: 'Lato', sans-serif;
+} 
+
+.text-center {
+    text-align: center;
+}
+/* Header styles*/
+header {
+    position: relative;
+    
+} 
+#logo-img {
+    height: 65px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+nav ul {
+    float: right;
+    width: 300px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5%;
+} 
+
+#home-link {
+    color: #ff9d00;
+    background-color:#bb9df2;
+}
+
+#about-link {
+    color: #7c7e32;
+    background-color: #16f5f9;
+} 
+
+#contact-link {
+    color: #17f895;
+    background-color: #fb160d;
+} 
+
+/*Contact Form Styles*/ 
+#contact-form-wrapper {
+    background-color: cyan;
+    
+}
+
+#map-wrapper {
+    background-color: #0066cc;
+}
+#contact-form-wrapper iframe {
+    width: 60%;
+    float: left;
+    background-color: #0066cc;
+} 
+
+#contact-form-wrapper h1 {
+    width: 40%;
+    float: right;
+    position: relative;
+    margin-top: 18%; 
+    background-color: #99ff99;
+} 
+
+#map-wrapper address {
+    clear: both;
+    font: 32px;
+    background-color: #0066cc;
+    padding: left;
+    padding-top:;
+    
+}
+
+#map-wrapper iframe {
+    float: right;
+    width: 600px;
+    height: 450px;
+    background-color: #0066cc;
+} 
+ 
+

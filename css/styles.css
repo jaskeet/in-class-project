@@ -1,0 +1,156 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker'); 
+
+/*UNIVERSALS*/ 
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+} 
+
+ul {
+    list-style-type: none;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+} 
+
+p, a {
+    font-family: 'Lato', sans-serif;
+} 
+
+.text-center {
+    text-align: center;
+}
+/* Header styles*/
+header {
+    position: relative;
+    
+} 
+#logo-img {
+    height: 65px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+nav ul {
+    float: right;
+    width: 300px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5%;
+} 
+
+#home-link {
+    color: #ff9d00;
+    background-color:#bb9df2;
+}
+
+#about-link {
+    color: #7c7e32;
+    background-color: #16f5f9;
+} 
+
+#contact-link {
+    color: #17f895;
+    background-color: #fb160d;
+} 
+
+/*Hero Section Begins*/  
+
+#hero {
+    height: 400px;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 52px;
+    color: #e40007;
+    text-align: center;
+    position: relative;
+    top: 45%;
+} 
+
+/*Sidebar section begins*/
+aside {
+    height: 300px;
+    background-color: #ffff00;
+    border: 2px solid #000;
+    width: 35%;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    float: left;
+}
+
+#blog-links {
+    height: 100%;
+    margin: 0px;
+    padding-left: 0px;
+} 
+
+#blog-links a {
+    color: #ff00ff;
+    display: inline-block;
+       height: 25%;
+} 
+
+#blog-links li {
+    border: 5px double #8609d4;
+    color: #d6fe9e; 
+} 
+
+#blog-links li.hover {
+    background-color: #e7e7e7
+} 
+
+/*Main section begins*/
+main {
+    float: left;
+    width: 65%;
+    height: 450px;
+    overflow-x: auto;
+} 
+
+main h1 {
+    letter-spacing: 8px;
+}
+.main-text {
+    font-size: 1.5em;
+    line-height: 35px;
+    padding: 0px 16px;
+} 
+
+/*Footer Styles*/
+.fa {
+    color: #000;
+    
+} 
+
+.fa-facebook {
+    color: #3366ff;
+}
+
+.fa-snapchat {
+   color: #ff0000; 
+}
+
+.fa-twitter {
+    color: #9900cc;
+}
+#copyright {
+    color: #fff;
+} 

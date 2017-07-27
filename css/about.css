@@ -1,0 +1,64 @@
+#logo-img {
+    box-shadow:;
+}
+/*HERO Section*/
+#about-hero {
+    height: 180px;
+    width: 80%;
+    background-image: url(http://akns-images.eonline.com/eol_images/Entire_Site/20151128/rs_634x1024-151228113745-634-Hayden-Christensen-star-wars.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    /*TODO: come back and resize image with Pixlr*/
+}
+
+#about-hero~h1 {
+    width: 20%;
+    float: right;
+    margin-top: 8%; 
+    text-shadow: 2px 2px 4px #333;
+}  
+
+video {
+    height: 400px;
+    width: 600px;
+}
+
+/*Column styles*/
+.column {
+    width: 33%; /*approx*/
+    height: 400px;
+    float: left; 
+    padding: 0px 16px;
+    position: relative;
+}
+
+.column p {
+    text-align: justify;
+    overflow: auto;
+} 
+
+.column button {
+    color: #41f479;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+    
+    
+}
+
+#col-1 {
+    clear: both;
+}  
+
+#col-1 button {
+    background-color: #f44195;
+}
+
+#col-1 button:hover {
+    font-size: 20px;
+}
+/*Button Styles*/
